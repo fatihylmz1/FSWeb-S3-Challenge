@@ -9,20 +9,34 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				ERGİNEER BAR VE MANGAL
+			<div style="background-color: rgba(0, 0, 0, 0.832);">
+				<div>
+
+					<h1>
+						<link rel="stylesheet" href="index.html">
+						ERGİNEER BAR VE MANGAL
+					</h1>
+				</div>
 
 				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
+				<div>
+					<nav>
+						<ul class="üstmenu">
+							<li><a href="menu.html" style="color: white;">Menü</a></li>
+							<li><a href="#" style="color: white;">Rezervasyonlar</a></li>
+							<li><a href="#" style="color: white;">Özel Teklifler</a></li>
+							<li><a href="#" style="color: white;">İletişim</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</header>
 
@@ -31,23 +45,25 @@
 			<div>
 				<h2>YEMEKLERİMİZ</h2>
 
-				img/food-avocadotoast.jpg
+				<div class="yemekler">
+					<div><img src="img/food-avocadotoast.jpg" alt="avokado"></div>
 
-				img/food-burger.jpg
+					<div><img src="img/food-burger.jpg" alt="burger"></div>
 
-				img/food-poutine.jpg
+					<div><img src="img/food-poutine.jpg" alt="poutine"></div>
 
-				img/food-ribs.jpg
+					<div><img src="img/food-ribs.jpg" alt="ribs"></div>
 
-				img/food-sandwich.jpg
+					<div><img src="img/food-sandwich.jpg" alt="sandwich"></div>
 
-				img/food-sausage.jpg
+					<div><img src="img/food-sausage.jpg" alt="sos"></div>
 
-				img/food-steak.jpg
+					<div><img src="img/food-steak.jpg" alt="et"></div>
 
-				img/food-tacos.jpg
+					<div><img src="img/food-tacos.jpg" alt="taco"></div>
 
-				img/food-wings.jpg
+					<div><img src="img/food-wings.jpg" alt="wing"></div>
+				</div>
 			</div>
 		</section>
 
@@ -111,8 +127,9 @@
 						<h3>İletişim</h3>
 
 						<div>
-							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
-							<a id="email" href="mailto:restoran@boomer.com">restoran@ergineer.com</a>
+							<a id="phone" href="tel:999-999-9999" style="color: white;">999-999-9999</a>
+							<a id="email" href="mailto:restoran@boomer.com"
+								style="color: white;">restoran@ergineer.com</a>
 						</div>
 					</div>
 				</div>
@@ -125,15 +142,36 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
-			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
+			<div class="altmenü">
+				<div>
+					<h4 style="color: white;">Mail listemize katılın!</h4>
+					<form>
+						<input type="text" placeholder="E-Posta Adresi" />
+						<button>Üye Ol!</button>
+
+					</form>
+
+				</div>
+				<!-- nav -->
+				<div>
+					<nav>
+						<ul class="altliste">
+							<li><a href="" style="color: white;">Menü</a></li>
+							<li><a href="" style="color: white;">Rezervasyonlar</a></li>
+							<li><a href="" style="color: white;">Özel Teklifler</a></li>
+							<li><a href="" style="color: white;">İletişim</a></li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+			<div class="enalt"><a href="#" style="text-align: end; color: white;">©2022
+					ERGİNEER Restoran Zinciri, Tüm hakları
+					saklıdır.</a></div>
+
+
 			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+
 		</footer>
 	</div>
 </body>
